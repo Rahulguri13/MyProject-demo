@@ -1,0 +1,65 @@
+
+.model{
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%,-50%);
+}
+.model-store{
+    height: 300px;
+    width: 300px;
+    background-color: blueviolet;
+    text-align: center;
+    color: whitesmoke;
+}
+h1{
+    position: relative;
+    top: 100px;
+}
+.btn{
+    padding: 1rem;
+    background-color: aquamarine;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 40%;
+    cursor: pointer;
+}
+.model-overlay{
+    position: absolute;
+    left: 50%;
+   top: 50%;
+   transform: translate(-50%,-50%);
+   visibility: hidden;
+   z-index: -10;
+}
+.open-model{
+    visibility: visible;
+    z-index: 10;
+}
+.model-container{
+height:280px;
+width: 280px;
+background-color: rgb(198, 123, 31);
+color: white;
+text-align: center;
+}
+h2{
+    font-size: 2rem;
+    font-weight: bold;
+    position: relative;
+    top: 100px;
+}
+.close-btn{
+    padding: 1rem;
+    background-color: brown;
+    color: white;
+    border: none;
+    margin-top: 40%;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.close-btn:hover{
+    background-color:rgb(92, 8, 8) ;
+}
